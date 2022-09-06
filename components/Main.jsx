@@ -3,19 +3,27 @@ import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-
+import NavHero from '/public/assets/hero_foto.png'
+import Image from 'next/image'
 const Main = () => {
   return (
     <div id='home' className='w-full h-screen text-center'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
-          <p className='uppercase text-sm tracking-widest text-gray-600'>
-            LET&#39;S BUILD SOMETHING TOGETHER
-          </p>
+        <div className='pt-8'>
+                        <Image
+                            src={NavHero}
+                            alt='/'
+                            width='300'
+                            height='300'
+                        />
+                        
+                    </div>
+     
           <h1 className='py-4 text-gray-700'>
-            Hi, soy <span className='text-[#5651e5]'> Juan David</span>
+          Hola 👋, soy <span className=' '>  Juan David!</span>
           </h1>
-          <h1 className='py-2 text-gray-700'>A Front-End Web Developer</h1>
+          <h1 className='text-6xl md:text-8xl lg:text-9xl inline-block subpixel-antialiased false first-word-gradient'>Web developer</h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
             I’m focused on building responsive front-end web applications while
             learning back-end technologies.

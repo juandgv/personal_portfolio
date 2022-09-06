@@ -34,4 +34,22 @@ html {
   button {
     @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white
   }
+
+  .first-word-gradient, .name-gradient {
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    -webkit-animation: gradient 4s ease both;
+    animation: gradient 4s ease both;
+}
+.name-gradient {
+  background-color: #fe5a59;
+  background-image: linear-gradient(45deg,#1f2937 40%,#fe5a59 50%,#8205ff 75%,#1f2937);
+}
+.first-word-gradient {
+  background-color: #fb408f;
+  background-image: linear-gradient(45deg,#1f2937 40%,#fb408f 60%,#fae937 75%,#1f2937);
+}
 }
