@@ -25,8 +25,7 @@ const Main = () => {
           </h1>
           <h1 className='text-6xl md:text-8xl lg:text-9xl inline-block subpixel-antialiased false first-word-gradient'>Web developer</h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-            I’m focused on building responsive front-end web applications while
-            learning back-end technologies.
+           Estoy enfocado.
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
